@@ -1,0 +1,3 @@
+.ChromisPOS
+* xref:install.adoc[]
+* xref:troubleshoot.adoc[]

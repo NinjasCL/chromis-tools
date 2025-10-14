@@ -1,0 +1,3 @@
+= Chromis Tools
+
+Documentación y herramientas para _Chromis POS_.

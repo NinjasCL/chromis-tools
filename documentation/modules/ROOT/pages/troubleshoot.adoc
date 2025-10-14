@@ -1,6 +1,0 @@
-= Problemas Comunes
-
-== Chromis Administrador No Muestra el Menu Superior
-
-Esto puede ser debido a la resolución de pantalla. Se puede solucionar cambiando el tamaño
-de la ventana con el mouse o con una resolución de pantalla de 1024x768.

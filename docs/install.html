@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Instalación Windows 10 64bits :: Chromis Tools</title>
+    <link rel="canonical" href="https://ninjascl.github.io/chromis-tools/install.html">
+    <link rel="prev" href="index.html">
+    <link rel="next" href="troubleshoot.html">
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="./_/css/site.css">
+    <link rel="stylesheet" href="./_/js/vendor/styles/monokai.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://ninjascl.github.io/chromis-tools">Chromis Tools</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Buscar">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <!--
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    -->
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">Chromis Tools</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Chromis</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="install.html">Instalación Windows 10 64bits</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="troubleshoot.html">Problemas Comunes</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Chromis Tools</span>
+    <span class="version"></span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">Chromis Tools</a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Chromis Tools</a></li>
+    <li>Chromis</li>
+    <li><a href="install.html">Instalación Windows 10 64bits</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///antora/./modules/ROOT/pages/install.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contenidos" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Instalación Windows 10 64bits</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Los siguientes archivos fueron usados para instalación en <em>Windows 10</em> 64 bits.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-1-descargar-los-instaladores"><a class="anchor" href="#paso-1-descargar-los-instaladores"></a>Paso 1: Descargar los instaladores</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Chromis: <a href="https://sourceforge.net/projects/chromispos/files/Windows/ChromisPOS_windows-x64_154-232306.exe/download">Chromis 1.5.3 Windows 64 bits</a></p>
+</li>
+<li>
+<p>Base de Datos: [MariaDB 11.8.3]</p>
+</li>
+<li>
+<p>JDK11 + JavaFX: <a href="https://download.bell-sw.com/java/11.0.28+12/bellsoft-jdk11.0.28+12-windows-amd64-full.msi">Liberica Full JDK 11.0.28+12 x86 64 for Windows</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-2-instalar-jdk"><a class="anchor" href="#paso-2-instalar-jdk"></a>Paso 2: Instalar JDK</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se instala el JDK11 + JavaFX de Liberica.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-3-instalar-mariadb"><a class="anchor" href="#paso-3-instalar-mariadb"></a>Paso 3: Instalar MariaDB</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se instala Maria DB y con HeidiSQL (incluido en el instalador)
+se debe crear una base de datos y usuario para la base de datos <em>chromis</em> que tenga todos los privilegios.</p>
+</div>
+<div class="paragraph">
+<p>Puede ser:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Host: localhost</p>
+</li>
+<li>
+<p>Nombre: chromis</p>
+</li>
+<li>
+<p>Usuario: chromis</p>
+</li>
+<li>
+<p>Contraseña: chromis</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-3-instalar-chromis"><a class="anchor" href="#paso-3-instalar-chromis"></a>Paso 3: Instalar Chromis</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Si pregunta si usar un JDK interno e instalar MariaDB ignorar esa opción ya que se han instalado previamente.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-4-abrir-chromis-terminal-config"><a class="anchor" href="#paso-4-abrir-chromis-terminal-config"></a>Paso 4: Abrir Chromis Terminal Config</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Establecer la conexión a la base de datos y el nombre del computador que estará usando Chromis</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-5-abrir-chromis-db-creator"><a class="anchor" href="#paso-5-abrir-chromis-db-creator"></a>Paso 5: Abrir Chromis DB Creator</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Este programa generará la base de datos con datos de ejemplos, por lo que solo usarlo si estamos instalando Chromis por primera vez
+y no tenemos una base de datos operativa.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-6-abrir-chromis-administrator"><a class="anchor" href="#paso-6-abrir-chromis-administrator"></a>Paso 6: Abrir Chromis Administrator</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Este programa genera los productos, reportes, usuarios.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="paso-7-abrir-chromis-pos"><a class="anchor" href="#paso-7-abrir-chromis-pos"></a>Paso 7: Abrir Chromis POS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Este programa es el usado para generar las ventas y puede ser usado por los perfiles de Administrador, Empleado y Manager.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="opcional-jasper-studio"><a class="anchor" href="#opcional-jasper-studio"></a>Opcional: Jasper Studio</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Los reportes de Chromis son elaborados con <a href="https://community.jaspersoft.com/download-jaspersoft/community-edition/jaspersoft-studio_7.0.3">Jasper Studio</a>. Se puede descargar e instalar para reportes personalizados.</p>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="index.html">Chromis Tools</a></span>
+  <span class="next"><a href="troubleshoot.html">Problemas Comunes</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="./_/js/site.js" data-ui-root-path="./_"></script>
+<script async src="./_/js/vendor/highlight.js"></script>
+<script src="./_/js/vendor/lunr.js"></script>
+<script src="./_/js/search-ui.js" id="search-ui-script" data-site-root-path="." data-snippet-length="100" data-stylesheet="./_/css/search.css"></script>
+<script async src="./search-index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+= Instalación Windows 10 64bits
+
+Los siguientes archivos fueron usados para instalación en _Windows 10_ 64 bits.
+
+== Paso 1: Descargar los instaladores
+
+- Chromis: https://sourceforge.net/projects/chromispos/files/Windows/ChromisPOS_windows-x64_154-232306.exe/download[Chromis 1.5.3 Windows 64 bits]
+- Base de Datos: [MariaDB 11.8.3]
+- JDK11 + JavaFX: https://download.bell-sw.com/java/11.0.28+12/bellsoft-jdk11.0.28+12-windows-amd64-full.msi[Liberica Full JDK 11.0.28+12 x86 64 for Windows]
+
+== Paso 2: Instalar JDK
+
+Se instala el JDK11 + JavaFX de Liberica.
+
+== Paso 3: Instalar MariaDB
+
+Se instala Maria DB y con HeidiSQL (incluido en el instalador)
+se debe crear una base de datos y usuario para la base de datos _chromis_ que tenga todos los privilegios.
+
+Puede ser:
+
+- Host: localhost
+- Nombre: chromis
+- Usuario: chromis
+- Contraseña: chromis
+
+== Paso 3: Instalar Chromis
+
+Si pregunta si usar un JDK interno e instalar MariaDB ignorar esa opción ya que se han instalado previamente.
+
+== Paso 4: Abrir Chromis Terminal Config
+
+Establecer la conexión a la base de datos y el nombre del computador que estará usando Chromis
+
+== Paso 5: Abrir Chromis DB Creator
+
+Este programa generará la base de datos con datos de ejemplos, por lo que solo usarlo si estamos instalando Chromis por primera vez
+y no tenemos una base de datos operativa.
+
+== Paso 6: Abrir Chromis Administrator
+
+Este programa genera los productos, reportes, usuarios.
+
+== Paso 7: Abrir Chromis POS
+
+Este programa es el usado para generar las ventas y puede ser usado por los perfiles de Administrador, Empleado y Manager.
+
+== Opcional: Jasper Studio
+
+Los reportes de Chromis son elaborados con https://community.jaspersoft.com/download-jaspersoft/community-edition/jaspersoft-studio_7.0.3[Jasper Studio]. Se puede descargar e instalar para reportes personalizados.

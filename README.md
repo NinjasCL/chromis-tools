@@ -21,3 +21,12 @@ Se debe mencionar los siguientes proyectos:
 
 - UniCenta: El proyecto del cual se derivó ChromisPOS.
 - OpenBravo: El proyecto del cual se derivó UniCenta.
+
+## Complementos
+
+Otros complementos al uso de Chromis pueden ser:
+
+- ERP: https://www.libertya.org/
+- CRM: https://www.espocrm.com/
+- Generar Reportes: https://www.jaspersoft.com/
+

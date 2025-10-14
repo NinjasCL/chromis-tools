@@ -44,3 +44,7 @@ Este programa genera los productos, reportes, usuarios.
 == Paso 7: Abrir Chromis POS
 
 Este programa es el usado para generar las ventas y puede ser usado por los perfiles de Administrador, Empleado y Manager.
+
+== Opcional: Jasper Studio
+
+Los reportes de Chromis son elaborados con https://community.jaspersoft.com/download-jaspersoft/community-edition/jaspersoft-studio_7.0.3[Jasper Studio]. Se puede descargar e instalar para reportes personaliados.
